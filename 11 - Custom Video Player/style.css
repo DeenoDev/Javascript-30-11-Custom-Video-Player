@@ -80,6 +80,7 @@ body {
 
 .player:hover .progress {
   height: 15px;
+  cursor: pointer;
 }
 
 .player__controls > * {
@@ -87,6 +88,7 @@ body {
 }
 
 .progress {
+  cursor: pointer;
   flex: 10;
   position: relative;
   display: flex;
@@ -98,6 +100,7 @@ body {
 }
 
 .progress__filled {
+  cursor: pointer;
   width: 50%;
   background: #ffc600;
   flex: 0;
